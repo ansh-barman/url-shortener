@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    background-color: rgb(240, 220, 248);
+    height: 600px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+#longurl{
+    position: relative;
+    top: 28%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+#shorten{
+    position: relative;
+    top: 27.8%;
+    left: 15%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+}
+
+#shorten:hover{
+    background-color: #7E22CE;
+}
+
+#shorturl{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+#copy{
+    position: relative;
+    top: 34.7%;
+    left: 15%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+#copy:hover{
+    background-color: #7E22CE;
+}
+
+.main p{
+    position: relative;
+    top: 10%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: rgb(238, 102, 5);
+}
+
+#Reset{
+    position: relative;
+    top: 60%;
+    right: 33%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+}
+
+#Reset:hover{
+    background-color: #7E22CE;
+}
+
+#Reset a{
+    color: white;
+    text-decoration: none;
+}
